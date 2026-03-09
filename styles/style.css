@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plaster&family=League+Spartan:wght@700&family=Tektur:wght@400..900&family=Inter:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Hubot+Sans:wght@400..900&family=Coda:wght@400;800&family=Lexend+Deca:wght@400;700&display=swap');
+
+body {
+    background-color: #F7F0F0;
+    color: #2E5266;;
+    font-family: 'Hubot Sans', 'Coda', 'Lexend Deca';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E5266;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px; 
+    height: 80px;
+    position: relative; 
+    z-index: 10;
+}
+
+header img.logo {
+    height: 100%; 
+    max-height: 200px; 
+    width: auto;
+    display: block;
+    margin-left: 15px;
+}
+
+#logo_link {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;   
+    gap: 40px;        
+}
+
+nav li {
+    display: inline;
+    text-decoration: none; 
+}
+
+nav a {
+    text-decoration: none; 
+    font-family: 'Plaster', 'League Spartan', 'Tektur';
+    font-weight: bold; 
+    font-size: 1rem; 
+    color: #9dc0c1; 
+}
+
+nav a:hover {
+    color: #f6c2ab;
+}
+
+
+#hero-image {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#hero-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    max-width: 1000px;
+    display: flex;
+    margin: 70px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    border: 3px solid #9dc0c1;
+    border-radius: 8px;
+    padding: 15px;
+    padding-bottom: 60px;
+    text-align: center;
+    box-shadow: 0 4px 6px #636363;
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #9dc0c1;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2E5266;
+    font-family: 'Hubot Sans', 'Coda', 'Lexend Deca';
+    margin: 5px;
+}
+
+
+footer {
+    background-color: #2E5266;
+    color: #F7F0F0;
+    padding: 2rem;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.social {
+    display: flex;
+    justify-self: start;
+    gap: 15px;
+}
+
+.social img {
+    width: 25px;
+    height: auto;
+}
+
+.social a img {
+    background-color: #F7F0F0;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Hubot Sans', 'Coda', 'Lexend Deca';
+}
+
+footer a {
+    font-family: 'Plaster', 'League Spartan', 'Tektur';
+    color: #9dc0c1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #f6c2ab;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
+
+.ice-project{
+    width: 40%;
+    margin: 20px auto;  
+}
+ .ice-page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+ }
+
+ .ice-project a {
+    text-decoration: none;
+ }

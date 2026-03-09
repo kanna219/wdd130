@@ -1,0 +1,99 @@
+/* Add your CSS here to style your valentines day page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica;
+    background-color: #C43131;
+    background-image: url("../images/Vday.png");
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav li {
+    padding: 15px 20px;
+    color: #FFFFF1;
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: #C43131;
+    cursor: pointer;
+}
+
+header {
+    background-color: #3D2603;
+}
+
+h1 {
+    color: #3D2603;
+    margin: 40px auto;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px #EDBFC6;
+}
+
+main img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border: 20px double #EDBFC6;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px #EDBFC6;
+}
+
+section {
+    background-color: #EDBFC6;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #C43131;
+    text-align: left;
+    border: 5px solid #432E36;
+    width: 100%;
+    max-width: 500px;
+}
+h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+main {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}   
+
+
+
+footer {
+    background-color: #3D2603;
+    color: #FFFFF1;
+    text-align: center;
+    padding: 12px;
+    font-size: 0.9rem;
+}
+
+main h1, main img {
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#wrapper {
+    max-width: 900px;           
+    margin: 40px auto;           
+    border: 3px solid #5F4842;     
+    border-radius: 20px;         
+    background-color: #AF8D86;   
+    overflow: hidden;            
+}
