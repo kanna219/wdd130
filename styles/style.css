@@ -87,6 +87,10 @@ section {
     transition: transform 0.3s;
 }
 
+section a{
+    text-decoration: none;
+}
+
 section:hover {
     transform: translateY(-5px);
 }
