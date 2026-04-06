@@ -67,8 +67,6 @@ nav a:hover {
 }
 
 #hero-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     max-width: 1000px;
     display: flex;
@@ -171,3 +169,39 @@ footer a:hover {
  .ice-project a {
     text-decoration: none;
  }
+
+#report {
+    padding: 50px;
+ }
+
+.report-card {
+    margin: 30px 50px;
+    padding: 50px;
+}
+
+.report-card p {
+    text-align: left;
+    line-height: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 800px){
+    #hero-grid {
+        flex-direction: column;
+        margin: 50px;
+        gap: 50px;
+    }
+    nav ul {
+        gap: 20px;
+    }
+};
