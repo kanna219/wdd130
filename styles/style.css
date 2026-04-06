@@ -158,7 +158,14 @@ footer a:hover {
 
 .ice-project{
     width: 40%;
-    margin: 20px auto;  
+    margin: 20px auto; 
+    padding: 50px; 
+}
+
+.ice-project p{
+    text-align: left;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
 }
  .ice-page {
     display: flex;
@@ -175,13 +182,14 @@ footer a:hover {
  }
 
 .report-card {
-    margin: 30px 50px;
-    padding: 50px;
+    margin: 50px 70px;
+    padding: 60px;
 }
 
 .report-card p {
     text-align: left;
     line-height: 2rem;
+    letter-spacing: 0.05rem;
 }
 
 h1 {
@@ -195,13 +203,5 @@ h1 {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 800px){
-    #hero-grid {
-        flex-direction: column;
-        margin: 50px;
-        gap: 50px;
-    }
-    nav ul {
-        gap: 20px;
-    }
-};
+
+    
